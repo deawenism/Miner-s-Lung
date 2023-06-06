@@ -23,7 +23,7 @@
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "MinersLung.mixins.json"
   ],
 
   "depends": {

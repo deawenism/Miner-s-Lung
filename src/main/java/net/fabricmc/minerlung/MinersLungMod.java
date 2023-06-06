@@ -1,6 +1,8 @@
 package net.fabricmc.minerlung;
 
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.fabricmc.minerlung.item.MinerLungItem;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -13,7 +15,11 @@ public class MinersLungMod implements ModInitializer {
 
 
 
-	public void onInitialize() {
 
+	@Override
+	public void onInitialize() {
+		MinerLungItem.registerMinerLungItem();
 	}
+
+
 }
