@@ -14,12 +14,15 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/MinersLung/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.MinersLungMod"
+      "net.fabricmc.minerlung.MinersLungMod"
+    ],
+    "client": [
+      "net.fabricmc.minerlung.MinersLungModClient"
     ]
   },
   "mixins": [

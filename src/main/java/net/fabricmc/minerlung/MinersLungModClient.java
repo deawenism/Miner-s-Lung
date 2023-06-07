@@ -1,4 +1,11 @@
 package net.fabricmc.minerlung;
 
-public class MinersLungModClient {
+import net.fabricmc.api.ClientModInitializer;
+public class MinersLungModClient implements ClientModInitializer {
+    @Override
+    public void onInitializeClient() {
+
+
+    }
+
 }

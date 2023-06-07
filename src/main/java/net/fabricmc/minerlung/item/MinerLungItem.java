@@ -11,10 +11,10 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class MinerLungItem {
-    public static final Item MASK = regiterItem("mask",
+    public static final Item MASK = registerItem("mask",
             new Item(new FabricItemSettings()));
 
-    private static Item regiterItem(String name, Item item) {
+    private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(MinersLungMod.MOD_ID,name),item);
     }
     public static void addItemsToItemGroup(){
